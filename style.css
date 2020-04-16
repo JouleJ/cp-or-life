@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+body {
+	background-color: #1E0956;
+	color: #FF6600;
+	padding: 0%;
+	margin: 0%;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.center-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.left-img {
+	float: left;
+}
+
+.title {
+	text-align: center;
+	width: 99%;
+}
+
+.menu {
+	width: 100%;
+	height: 10%;
+	text-align: center;
+	background-color: #9B970C;
+}
+
+.bottom {
+	width: 100%;
+	height: 10%;
+	text-align: center;
+}
+
+.menu ul {
+	list-style-type: none;
+	margin: 0;
+  	padding: 0;
+}
+
+blockquote {
+	text-align: center;
+}
+
+.menu ul li {
+	display: inline;
+}
+
+.menu ul li a {
+	color: black;
+	text-decoration: none;
+	padding: 1%;
+}
+
+.menu ul li a:hover {
+	color: blue;
+}
+
+.main {
+	padding-left: 1%;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	padding-right: 0%;
+	width: 100%;
+}
+
+.neutral {
+	background-color: #6CBAC9;
+	color: #0F1111;
+}
+
+.evil {
+	background-color: #D10000;
+	color: #0F1111;
+}
+
+.good {
+	background-color: #BCD89E;
+	color: #0F1111;
+}
+
+.split-container {
+	position: absolute;
+	width: 100%;
+	height: 200%;
+}
+
+.split {
+}
+
+.left {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	height: 90%;
+	width: 50%;
+	padding: 1%;
+	font-size: 1.2em;
+}
+
+.right {
+	position: absolute;
+	top: 0%;
+	right: 0%;
+	height: 90%;
+	width: 50%;
+	padding: 1%;
+	font-size: 1.2em;
+}
+
+.down {
+	position: absolute;
+	bottom: 0%;
+	width: 100%;
+}
+
+.cure {
+	padding: 1%;
+}
+
+.warn {
+	font-style: italic;
+}
+
+.cult {
+	padding: 1%;
+}
+
+strong {
+    font-family: 'Girassol', cursive;	
+}
+
+.ancient-mystery {
+    font-family: 'Girassol', cursive;	
+}
+
+.opinion {
+	width: 100%;
+	height: 100%;
+	margin-bottom: 10%;
+	padding: 1%;
+}
+
+.expert {
+	color: green;
+}
