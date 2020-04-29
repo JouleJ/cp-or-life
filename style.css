@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
 body {
-	background-color: #1E0956;
-	color: #FF6600;
+	/*background-color: #1E0956;*/
+	/*color: #FF6600;*/
 	padding: 0%;
 	margin: 0%;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -20,14 +20,14 @@ body {
 
 .title {
 	text-align: center;
-	width: 99%;
+	/*width: 99%;*/
 }
 
 .menu {
 	width: 100%;
 	height: 10%;
 	text-align: center;
-	background-color: #9B970C;
+	/*background-color: #9B970C;*/
 }
 
 .bottom {
@@ -65,21 +65,21 @@ blockquote {
 	padding-bottom: 1%;
 	padding-top: 1%;
 	padding-right: 0%;
-	width: 100%;
+	/*width: 100%;*/
 }
 
 .neutral {
-	background-color: #6CBAC9;
+	/*background-color: #6CBAC9;*/
 	color: #0F1111;
 }
 
 .evil {
-	background-color: #D10000;
+	/*background-color: #D10000;*/
 	color: #0F1111;
 }
 
 .good {
-	background-color: #BCD89E;
+	/*background-color: #BCD89E;*/
 	color: #0F1111;
 }
 
@@ -139,12 +139,90 @@ strong {
 }
 
 .opinion {
-	width: 100%;
+	/*width: 100%;*/
 	height: 100%;
 	margin-bottom: 10%;
 	padding: 1%;
 }
 
 .expert {
-	color: green;
+	/*color: green;*/
+}
+
+#logo-name {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	/*color: #6a6562;*/
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 200;
+	line-height: 1.0263;
+	display: inline;
+	animation-name: logo-name-frames;
+	animation-duration: 2s;
+	animation-timing-function: ease;
+}
+
+#logo-corner-right {
+	position: absolute;
+	bottom: -3px;
+	right: -6px;
+	border-right: 1px solid #7f8c8d;
+	border-bottom: 1px solid #7f8c8d;
+	width: 40px;
+	height: 20px;
+	animation-name: corner-right-frames;
+	animation-duration: 0.6s;
+	animation-timing-function: ease;
+}
+
+#logo-corner-left {
+	position: absolute;
+	top: -20px;
+	left: -6px;
+	border-top: 1px solid #7f8c8d;
+	border-left: 1px solid #7f8c8d;
+	width: 40px;
+	height: 20px;
+	animation-name: corner-left-frames;
+	animation-duration: 0.6s;
+	animation-timing-function: ease;
+}
+
+@keyframes corner-right-frames {
+	0% {
+		opacity: 0;
+		width: 1px;
+		height: 1px;
+	}
+
+	100% {
+		opacity: 1;
+		width: 40px;
+		height: 20px;
+	}
+}
+
+@keyframes corner-left-frames {
+	0% {
+		opacity: 0;
+		width: 1px;
+		height: 1px;
+	}
+
+	100% {
+		opacity: 1;
+		width: 40px;
+		height: 20px;
+	}
+}
+
+@keyframes logo-name-frames {
+	0% {
+		opacity: 0;
+	}
+
+
+	100% {
+		opacity: 1;
+	}
 }

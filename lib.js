@@ -17,5 +17,6 @@ window.onload = function() {
 	};
 	setContent('title', '<h1> Спортивное программирование или жизнь: место есть только для одного! </h1>');
 	setContent('menu', generateMenuFromDict(menuDict));
-	setContent('bottom', 'Проект подготовлен учениками 11В класса СУНЦ МГУ: Александр Шеховцов, Владимир Кауркин, Михиал Малютин')
+	setContent('bottom',
+		'<div>Проект подготовлен учениками 11В класса СУНЦ МГУ: Александр Шеховцов, Владимир Кауркин, Михиал Малютин</div><div style="text-align:right; padding-right: 100px; color: rgb(100, 100, 100)"><div>© 2020</div><link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet"><div class="header-logo"><div style="position: relative; display: inline;"><div id="logo-name">T<i class="material-icons" style="font-size: 32px; position: relative; top: 4px;">camera</i>URIST</div><div id="logo-corner-right"></div><div id="logo-corner-left"></div></div></div></div>')
 }
