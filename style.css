@@ -238,3 +238,14 @@ strong {
 #table-of-horror td {
 	text-align: center;
 }
+
+.external-link {
+	text-decoration: none;
+	color: blue;
+}
+.external-link:visited {
+	color: blue;
+}
+.external-link:hover {
+	text-decoration: underline;
+}
