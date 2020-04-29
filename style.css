@@ -7,6 +7,10 @@ body {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
+h1 {
+	text-align: center;
+}
+
 .center-img {
 	display: block;
 	margin-left: auto;
@@ -225,4 +229,12 @@ strong {
 	100% {
 		opacity: 1;
 	}
+}
+
+#table-of-horror th {
+	text-align: center;
+}
+
+#table-of-horror td {
+	text-align: center;
 }
